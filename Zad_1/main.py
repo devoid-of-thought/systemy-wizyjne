@@ -12,3 +12,6 @@ cv2.ellipse(image, (300, 475), (30, 15), 35, 0, 360, (0, 255, 255), 2)
 cv2.ellipse(image, (368, 470), (30, 15), -35, 0, 360, (0, 255, 255), 2)
 
 cv2.imwrite('./pawian Mariusz - zakształcony.jpg', image)
+cv2.imshow('Zadanie 1', image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
